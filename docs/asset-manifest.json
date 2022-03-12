@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.abb1072d.css",
+    "main.js": "/static/js/main.4540c9e1.js",
+    "static/js/787.9ce59389.chunk.js": "/static/js/787.9ce59389.chunk.js",
+    "static/media/Radio.png": "/static/media/Radio.a9596b12a389c5d3cd87.png",
+    "static/media/logo.png": "/static/media/logo.67517a0c1d299af95dc9.png",
+    "index.html": "/index.html",
+    "main.abb1072d.css.map": "/static/css/main.abb1072d.css.map",
+    "main.4540c9e1.js.map": "/static/js/main.4540c9e1.js.map",
+    "787.9ce59389.chunk.js.map": "/static/js/787.9ce59389.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abb1072d.css",
+    "static/js/main.4540c9e1.js"
+  ]
+}
