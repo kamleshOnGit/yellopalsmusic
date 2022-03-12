@@ -167,11 +167,7 @@ class MusicContainer extends React.Component {
           <>
             <h2> {name}</h2>
             <img src={img} alt={name} />
-            <ReactHlsPlayer
-              src={url}
-              autoPlay={true}
-              controls={true}
-            />
+            <ReactHlsPlayer src={url} autoPlay={true} controls={true} />
           </>
         );
       } else {
@@ -179,11 +175,7 @@ class MusicContainer extends React.Component {
           <>
             <h2> {name}</h2>
             <img src={img} alt={name} />
-            <audio
-              src={url}
-              autoPlay='true'
-              controls
-            />
+            <audio src={url} autoPlay='true' controls />
           </>
         );
       }
@@ -193,7 +185,7 @@ class MusicContainer extends React.Component {
     return (
       <div className='MusicContainer'>
         <header className='Playingarea'>
-          <img src={Logo} width='300' alt='logo' />
+          <img src={'.' + Logo} width='300' alt='logo' />
         </header>
         <div className='main'>
           <h1> Online Radio</h1>
@@ -205,7 +197,7 @@ class MusicContainer extends React.Component {
             ))}
           </select>
           <div className='inner'>
-            {player1 ? player1 : <img src={Radio} alt='radio' />}
+            {player1 ? player1 : <img src={'.' + Radio} alt='radio' />}
           </div>
         </div>
       </div>
