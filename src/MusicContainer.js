@@ -3,9 +3,6 @@ import './style.scss';
 import Radio from './Radio.png';
 import Logo from './logo.png';
 import ReactHlsPlayer from 'react-hls-player';
-// import Auth from './auth';
-// import SpotifyWebApi from 'spotify-web-api-js';
-// let spotify = new SpotifyWebApi();
 
 class MusicContainer extends React.Component {
   constructor(props) {
@@ -103,7 +100,6 @@ class MusicContainer extends React.Component {
       ],
     };
     this.musicSearcher = this.musicSearcher.bind(this);
-    // this.getmusic = this.getmusic.bind(this);
   }
 
   musicSearcher(event) {
@@ -113,36 +109,6 @@ class MusicContainer extends React.Component {
     });
     console.log(this.state.searchq);
   }
-
-  // getmusic() {
-  //   fetch(
-  //     'https://spotify23.p.rapidapi.com/search/?q=' +
-  //       this.state.searchq +
-  //       '&type=multi&offset=0&limit=10&numberOfTopResults=5',
-  //     {
-  //       method: 'GET',
-  //       headers: {
-  //         'x-rapidapi-host': 'spotify23.p.rapidapi.com',
-  //         'x-rapidapi-key':
-  //           'dbd5c7a9e7msh0be63f89f75242bp1c64bdjsn686599c53ceb',
-  //       },
-  //     }
-  //   )
-  //     .then((response) => response.json())
-  //     .then((body) => {
-  //       this.setState((previousState) => ({
-  //         ...previousState,
-  //         items: body,
-  //       }));
-  //       console.log(body);
-  //       if (this.state.items.track) {
-  //         this.track = this.state.items.tracks.items[0].uri;
-  //       }
-  //     })
-  //     .catch((err) => {
-  //       console.error(err);
-  //     });
-  // }
 
   componentDidMount() {}
   render() {
